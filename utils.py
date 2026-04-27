@@ -1,8 +1,11 @@
 import os
+import datetime
+
 """
 create task
 delete task
 change task
+show date
 """
 
 def create_task():
@@ -79,3 +82,5 @@ def delete_task():
 
     print("Задача удалена")
 
+def show_date():
+    print(f'Сегодня: {datetime.date.today()}')
